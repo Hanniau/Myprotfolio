@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <style>
+        *{
+            background-color:rgb(238, 125, 144);
+            justify-content: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .first{
+            display: flex;
+            justify-content: center;
+        }
+        .form form{
+            margin: 100px 150px;
+            width: 200px;
+            height: 100px;
+        }
+        .content{
+            margin:90px 20px 20px 20px;
+            color:black;
+            font-weight: bold;
+        }
+        nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: end;
+}
+        
+        nav ul li{
+        display: inline-block;
+        list-style: none;
+        margin: 10px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: chartreuse;
+}
+    .ic{
+        display: flex;
+        width: 70%;
+        margin-left: 0px;
+        margin-top: 20px;
+        padding: 20px 0;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 30px;
+        color:black;
+    }
+    .form form button{
+        background-color: crimson;
+        border-radius: 10px;
+        width:150px;
+        align-items: center;
+        padding:10px;
+        margin-top: 20px;
+        margin-left: 80px;
+        font-size: 15px;
+
+    }
+   .form form input {
+    width: 300px;
+    height: 30px;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: bold;
+   }
+   .form form textarea{
+    width:300px;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: bold;
+   }
+   
+   
+</style>
+</head>
+<body>
+    <nav>
+        
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./About.html">ABOUT</a></li>
+            <li><a href="./protfolio.html">PROTFOLIO</a></li>
+            <li><a href="./Contact Me.html">Contact Me</a></li>
+            
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="first">
+        <div class=content>
+            <h1>Contact Me</h1><br>
+            <h3>
+            <i class="fa-regular fa-envelope"></i>&nbsp;&nbsp;honeyaung015@gmail.com</h3><br>
+           <h3> <i class="fa-solid fa-square-phone"></i></i>&nbsp;&nbsp;09253932653</h3><br>
+           <div class="ic">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-telegram"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-viber"></i>
+        </div>
+
+
+        </div>
+        <div class="form">
+            <form>
+                
+                    <input type="text" placeholder="Full Name"><br><br>
+                    <input type="email" placeholder="Email"><br><br>
+                
+                    <input type="number" placeholder="Phone Number"><br><br>
+                    <input type="text" placeholder="Subject"><br><br>
+                
+                <textarea name="" id="" cols="20" rows="5">Your Message</textarea>
+                <button>Send<i class="fa-regular fa-envelope-circle-check"></i></button>
+            </form>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
